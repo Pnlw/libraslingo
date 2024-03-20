@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/telasDeLogin.css">
+    <title>Formulário</title>
+</head>
+<body> 
+    <figure>
+        <img src="imagens/libraslingologo.jpg" id="logo">
+    </figure>
+    <div class="div-voltar">
+        <button class="btn" onclick=voltar()>VOLTAR</button>
+    </div>
+    <form method="post" action="principal.html">
+            <fieldset>
+                <label>CADASTRO</label>
+                <label for="idade"> Idade : </label>
+                <input type="text" name="idade" id="idade"  maxlength="2">
+
+                <label for="email"> Email :</label>
+                <input type="text" name="email" id="email" maxlength="50">
+
+                <label for="deficiência"> Tem Deficiência ?  </label>
+                <input id="deficiência" type="checkbox" name="deficiência">
+
+                <label for="nickName">NickName :</label>
+                <input type="text" name="nickName" id="nickName" maxlength="20">
+
+                <label for="senha">Senha :</label>
+                <input type="password" name="senha" id="senha" maxlength="20">
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </div>
+    </form>
+    <label>Já está cadastrado? Clique para entrar com a sua conta: </label><a href="telaLogin.html">LOGAR</a>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

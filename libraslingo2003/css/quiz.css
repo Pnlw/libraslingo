@@ -1,0 +1,33 @@
+*{margin: 0; padding: 0;}
+body{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr; 
+}
+#div1{
+    margin: auto;
+}
+#div2{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 0px;
+}
+#mensagem{
+    margin: auto;
+}
+#div3{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.opcao{
+    width: 100px;
+    height: 100px;
+}
+#imagem{
+    width: 200px;
+    height: 200px;
+}

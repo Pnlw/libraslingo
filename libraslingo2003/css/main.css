@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0;}
+
+.btn{
+    width: 200px;
+    height: 100px;
+    font-size: large;
+    cursor: pointer;
+    background-color: gray;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: aqua;
+}
+body{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 100px;
+    column-gap: 200px;
+}
+header{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    column-gap: normal;
+    row-gap: 20px;
+}
+main{
+    margin: 100px
+}
+footer{
+    border: solid 2px black;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    
+}
+#img1{
+    width: 200px;
+    height: 200px;
+}
+#btn-cad{
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+}

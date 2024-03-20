@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/telasDeLogin.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <figure>
+        <img src="imagens/libraslingologo.jpg" id="logo">
+    </figure>
+    <div class="div-voltar">
+        <button class="btn" onclick=voltar()>VOLTAR</button>
+    </div>
+    <form method="post" action="principal.html">
+        <div class="formulario">
+            <fieldset>
+                <label> LOGIN</label>
+                <label for="nickName">NickName :</label>
+                <input type="text" name="nickName" id="nickName" maxlength="20">
+
+                <label for="senha">Senha :</label>
+                <input type="password" name="senha" id="senha" maxlength="20">
+
+                <input type="submit" value="Enviar">
+                
+            </fieldset>
+        </div>
+    </form>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

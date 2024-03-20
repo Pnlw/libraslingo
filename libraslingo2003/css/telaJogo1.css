@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;}
+body{
+    margin: 100px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 100px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    column-gap: 100px;  
+}
